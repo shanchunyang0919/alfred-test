@@ -5,7 +5,7 @@ provider "aws" {
 
 # Create a VPC
 resource "aws_vpc" "main_vpc" {
-  cidr_block = "10.0.1.1231231231230/16"
+  cidr_block = "10.0.1.1231231231130/16"
 
   tags = {
     Name = "main_vpc"
